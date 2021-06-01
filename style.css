@@ -1,0 +1,223 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.header{
+    background-image: url(./img/background.png);
+    width: 100%;
+    height: 80em;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}   
+.start{
+    margin-left: 165px;
+    margin-right:  50%;
+}
+.text_bold   {
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 74px;
+}    
+.text_normal{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+} 
+.start_navigation{
+    padding: 20px;
+} 
+.start_text{
+    padding: 120px 0;
+}
+.link{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    
+    color: #FFD723;
+}
+.client{
+    position: absolute;
+    padding: 50px;
+    right: 0px;
+    top: 707px;
+    background: #ffffff;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 2px;
+    text-align: center;
+    justify-content: center;
+    z-index: 3;
+    float: left;
+    margin-top: 10%;
+    margin-right: 0;
+}
+.container{
+    margin:0 165px ;
+}
+.text_big{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+}
+.text_darkgreen{
+    color: #4D533C;
+}
+.text_colored{
+    color: rgba(33, 56, 66, 0.6);
+}
+.link2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+
+    color: #D4D6D4;
+}
+.services{
+    margin-right: 635px;
+}
+.review{
+    position: absolute;
+    width: 474px;
+    height: auto;
+    top: 1010px;
+    z-index: 1;
+    background: #FFFFFF;
+    box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.145947);
+    right: 15%;
+    padding: 10% 35px 65px 35px;
+}
+.review img{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    -background: url(Image.png);
+    box-shadow: 20px 25px 43px rgba(0, 0, 0, 0.18);
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    margin-top: 50px;
+}
+.review_account{
+    margin-left: 30%;
+    order: 44;
+    margin-top: 80px;
+
+}
+.account_name{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 33px;
+    color: #4D533C;
+}
+.account_activity{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #152934;
+}
+.review_account p{
+    margin: 0;
+}
+.tittle{
+    position: absolute;
+    height: 108px;
+    margin-right: 60%;
+}
+.project_begining{
+    padding-top: 10%;
+}
+.begining_text{
+    margin: 40px 0 0 50%;
+}
+product1{
+    margin: 100px;
+}
+.product1_img{
+    margin-top: 100px;
+    position: absolute;
+    left: 0;
+    width: 50%;
+    z-index: 1;
+    order: 1;
+}
+.comment{
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    border-radius: 8px;
+    padding: 20px;
+    
+}
+.product_comment{
+    right: 45%;
+    left: 25%;
+    width: auto;
+    z-index: 5;
+    margin-top: 30%;
+    order: 5;
+}
+.comment_font{
+    font-family: Poppins;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4D533C;
+}
+.account_icon{
+    position: absolute;
+    box-shadow: 20px 25px 43px rgba(0, 0, 0, 0.18);
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    margin-top: 10%;
+    left: 5%;
+}
+.account_username{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4D533C;
+    margin-left: 20%;
+}
+.account_involvment{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #152934;
+    margin-left: 20%;
+}
+.product_account{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.product_account p{
+    margin: 0;
+}
+.product_text{
+    margin-left: 60%;
+    padding: 10% 0;
+}
