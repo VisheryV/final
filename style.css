@@ -41,14 +41,15 @@ body{
     padding: 120px 0;
 }
 .link{
+    color: #FFD723;
+}
+.link_text{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
     text-decoration-line: underline;
-    
-    color: #FFD723;
 }
 .client{
     position: absolute;
@@ -66,7 +67,7 @@ body{
     margin-right: 0;
 }
 .container{
-    margin:0 165px ;
+    margin:0 10% ;
 }
 .text_big{
     font-family: Poppins;
@@ -82,14 +83,15 @@ body{
     color: rgba(33, 56, 66, 0.6);
 }
 .link2{
+    color: #D4D6D4;
+}
+.link2_text{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
     text-decoration-line: underline;
-
-    color: #D4D6D4;
 }
 .services{
     margin-right: 635px;
@@ -149,17 +151,18 @@ body{
 }
 .begining_text{
     margin: 40px 0 0 50%;
+
 }
-product1{
-    margin: 100px;
-}
-.product1_img{
+.product1_img img{
     margin-top: 100px;
     position: absolute;
     left: 0;
     width: 50%;
+    height: 50%;
+    overflow: hidden;
     z-index: 1;
     order: 1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .comment{
     position: absolute;
@@ -174,7 +177,7 @@ product1{
     left: 25%;
     width: auto;
     z-index: 5;
-    margin-top: 30%;
+    margin-top: 28%;
     order: 5;
 }
 .comment_font{
@@ -220,4 +223,108 @@ product1{
 .product_text{
     margin-left: 60%;
     padding: 10% 0;
+}
+.product_tn{
+    margin-top: 5%;
+}
+.product_text_link{
+    color: #D4D6D4;
+}
+.product_text_link_text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+}
+.product2_img img{
+    margin-top: 100px;
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+    z-index: 1;
+    order: 1;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.product2_comment{
+    left: 45%;
+    right: 25%;
+    width: auto;
+    z-index: 5;
+    margin-top: 25%;
+    order: 5;
+    
+}
+.product2_text{
+    margin-right: 60%;
+    margin-top: 15%;
+    padding: 10% 0;
+}
+.deation_position{
+    margin-top: 15%;
+    margin-right: 40%;
+}
+.project hr{
+    margin-top: 20%;
+    color: rgba(114, 114, 114, 0.521);
+}
+.deation_cube{
+    position: absolute;
+    width: 25%;
+    padding:2%;
+}
+.cube_tittle{
+    
+    font-family: Poppins;
+    font-style: medium;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #4D533C;
+}
+.deation_cube1{
+    width: 20%;
+    margin-right: 60%;
+}
+.deation_cube2{
+    margin-right: 40%;
+    margin-left: 20%;
+    width: 20%;
+}
+.deation_cube3{
+    margin-right: 20%;
+    margin-left: 40%;
+    width: 20%;
+}
+.deation_cube4{
+    width: 20%;
+    margin-left: 60%;
+}
+.cube_text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: rgba(33, 56, 66, 0.6);
+}
+.cube_link{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+
+}
+.deation_cube i{
+    color: #D4D6D4;    
+}
+.deation_cube a:hover{
+    background: rgb(255, 38, 0);
+    color: rgb(163, 243, 13);
 }
