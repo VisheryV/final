@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: Poppins;
 }
 body{
     margin: 0;
@@ -19,7 +20,6 @@ body{
     margin-right:  50%;
 }
 .text_bold   {
-    font-family: 'Poppins', sans-serif;
     color: #FFFFFF;
     font-style: normal;
     font-weight: bold;
@@ -27,7 +27,6 @@ body{
     line-height: 74px;
 }    
 .text_normal{
-    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -44,7 +43,6 @@ body{
     color: #FFD723;
 }
 .link_text{
-    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -70,7 +68,6 @@ body{
     margin:0 10% ;
 }
 .text_big{
-    font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -86,7 +83,6 @@ body{
     color: #D4D6D4;
 }
 .link2_text{
-    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -111,7 +107,6 @@ body{
     position: absolute;
     width: 90px;
     height: 90px;
-    -background: url(Image.png);
     box-shadow: 20px 25px 43px rgba(0, 0, 0, 0.18);
     border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     margin-top: 50px;
@@ -120,10 +115,8 @@ body{
     margin-left: 30%;
     order: 44;
     margin-top: 80px;
-
 }
 .account_name{
-    font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
@@ -131,7 +124,6 @@ body{
     color: #4D533C;
 }
 .account_activity{
-    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -151,7 +143,6 @@ body{
 }
 .begining_text{
     margin: 40px 0 0 50%;
-
 }
 .product1_img img{
     margin-top: 100px;
@@ -170,7 +161,6 @@ body{
     box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
     border-radius: 8px;
     padding: 20px;
-    
 }
 .product_comment{
     right: 45%;
@@ -181,7 +171,6 @@ body{
     order: 5;
 }
 .comment_font{
-    font-family: Poppins;
     font-style: italic;
     font-weight: normal;
     font-size: 16px;
@@ -196,7 +185,6 @@ body{
     left: 5%;
 }
 .account_username{
-    font-family: Poppins;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -205,7 +193,6 @@ body{
     margin-left: 20%;
 }
 .account_involvment{
-    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -231,7 +218,6 @@ body{
     color: #D4D6D4;
 }
 .product_text_link_text{
-    font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -256,75 +242,114 @@ body{
     z-index: 5;
     margin-top: 25%;
     order: 5;
-    
 }
 .product2_text{
     margin-right: 60%;
     margin-top: 15%;
     padding: 10% 0;
 }
-.deation_position{
+.deation{
     margin-top: 15%;
+}
+.deation_position{  
     margin-right: 40%;
 }
 .project hr{
     margin-top: 20%;
     color: rgba(114, 114, 114, 0.521);
 }
+.deation_cubes{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
 .deation_cube{
-    position: absolute;
+    position: relative;
     width: 25%;
     padding:2%;
 }
 .cube_tittle{
-    
-    font-family: Poppins;
-    font-style: medium;
+    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 34px;
     text-transform: uppercase;
     color: #4D533C;
 }
-.deation_cube1{
-    width: 20%;
-    margin-right: 60%;
-}
-.deation_cube2{
-    margin-right: 40%;
-    margin-left: 20%;
-    width: 20%;
-}
-.deation_cube3{
-    margin-right: 20%;
-    margin-left: 40%;
-    width: 20%;
-}
-.deation_cube4{
-    width: 20%;
-    margin-left: 60%;
-}
 .cube_text{
-    font-family: Poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 26px;
     color: rgba(33, 56, 66, 0.6);
 }
-.cube_link{
-    font-family: Poppins;
+.deation_cube a{
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
-    text-decoration-line: underline;
-
+    text-decoration-line
+    margin-left: 2px;
 }
 .deation_cube i{
     color: #D4D6D4;    
 }
-.deation_cube a:hover{
-    background: rgb(255, 38, 0);
-    color: rgb(163, 243, 13);
+.footer_content{
+    padding-top: 310px;
+    padding-bottom: 36px;
+    background-color: #4f553d;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.footer_text{
+    color: #b6c197;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    display: block;
+}
+.footer_textbold{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+    display: block;
+}
+.contacts{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;   
+}
+.contacts_item{
+    margin-right: 10%;
+}
+.line{
+    width: 100%;
+    content: '';
+    margin: 2% 0;
+    height: 2px;
+    background-color: #5d6544;
+}
+.help_list{
+    width: 15%;
+    padding-left: 0;
+    margin-right: 10%;
+}
+.footer_help{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start; 
+}
+.list_tittle{
+    margin-bottom: 4%;
+}
+.footer_help div{
+    width: 30%;
+}
+.footer_text_big{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
 }
